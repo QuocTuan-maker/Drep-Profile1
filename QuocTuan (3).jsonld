@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "doNotList": false,
+    "givenName": "QuocTuan",
+    "motivations": "My goal as DREP team leader is to:\n- use my own experience and knowledge to search and vote for good projects and proposals with good potential for the Cardano ecosystem.\n- support the community in the main countries of Vietnam, UK, USA, Japan and Korea, in addition, I also diversify other countries and regions using common languages ​​such as English.\n- develop and increase the number of ADA holders participating in the election",
+    "objectives": "achievements and experiences gained from actual participation contribute to the ecosystem, in addition, I believe that the Cardano ecosystem will grow and will soon have great aspects applied to daily life, I believe that the Cardano blockchain will prove to the community of other Blockchain platforms to see our advantages.",
+    "paymentAddress": "addr1qx7uk27utzsynl0a4c79ne7rjfxxz6mk06y4c9uurhargcwtly5xxf2t3zxtnmqwuuj2qsnl0tgy525zj78x4dzwq43qej5v3z",
+    "qualifications": "The experience and qualifications I have are that I have been involved in the Cardano ecosystem since the very first funding rounds, and I have been involved in all the active activities related to Drep's work, such as community advisory, voting, proposal writing, etc.",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "MY Tiktok ",
+        "uri": "https://www.tiktok.com/@catalyst_haskell?_t=8qAzgUTQlL0&_r=1"
+      },
+      {
+        "@type": "Link",
+        "label": "MY Facebook ",
+        "uri": "https://www.facebook.com/TimHieuVeCatalyst/about"
+      },
+      {
+        "@type": "Link",
+        "label": "MY Twitter ",
+        "uri": "https://x.com/Quctun7Tuan"
+      },
+      {
+        "@type": "Identity",
+        "label": "Drep Profile",
+        "uri": "https://Quoctuan.com"
+      }
+    ]
+  }
+}
